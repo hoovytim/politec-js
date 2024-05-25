@@ -1,0 +1,80 @@
+.album-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .album-cover img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .album-cover img {
+    max-width: 100%;
+    max-height: 200px;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .card-container {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .album-info {
+    padding: 1rem;
+    flex: 1;
+  }
+  
+  .album-title {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .album-artist {
+    margin: 0;
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .album-year {
+    margin: 0;
+    font-size: 0.8rem;
+    color: #999;
+  }
+  
+  .album-link {
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  .album-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+  }
+
+  .btn-primary {
+    background-color: #ff6200;
+    border-color: #ff5100;
+  }
+  
+  .btn-primary:hover {
+    background-color: #d94c00;
+    border-color: #cc3000;
+  }
+  
+  .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 60, 0, 0.993);
+  }
